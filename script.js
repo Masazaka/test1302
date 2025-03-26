@@ -22,5 +22,6 @@ function startCountdown(targetDate) {
     updateCountdown();
 }
 
-let countdownDate = new Date("2025-01-01T00:00:00").getTime();
+// Đặt thời gian đếm ngược đến ngày 27/3 lúc 3 giờ sáng
+let countdownDate = new Date("2025-03-27T03:00:00").getTime();
 startCountdown(countdownDate);
